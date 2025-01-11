@@ -6,8 +6,6 @@ import cors from 'cors'
 import { allProductsRoutes } from './routes/allProductsRoutes.js';
 dotenv.config()
 
-
-
 // =================== app ====================
 const app = express();
 app.use(cors())
